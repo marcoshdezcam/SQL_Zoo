@@ -35,4 +35,4 @@ WHERE LEFT(name, 1) = LEFT(capital, 1) AND name <> capital;
 
 SELECT name FROM world
 WHERE ('a', 'e', 'i', 'o', 'u') in name
-AND name NOT LIKE '%name%'
+AND name NOT LIKE '%name%';
