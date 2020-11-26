@@ -30,7 +30,7 @@ SELECT name FROM world
  WHERE name LIKE '%o__o%';
 
 SELECT name FROM world
- WHERE name LIKE '____'
+ WHERE name LIKE '____';
 
 SELECT name
   FROM world
@@ -46,4 +46,4 @@ SELECT capital, name
 
 SELECT capital, name
 FROM world
-WHERE capital LIKE name || '_%'
+WHERE capital LIKE name || '_%';
